@@ -1,0 +1,10 @@
+.jumbotron {
+    color:gold;
+    text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
+    background-color: gray;
+    background-image: url(/assets/S__93282308.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 23%;
+    height: 50vh;
+}
