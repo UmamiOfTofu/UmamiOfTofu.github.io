@@ -1,3 +1,17 @@
+.navbar {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.navbar-nav li a {
+    color: white;    
+}
+
+.navbar-nav li a:hover {
+    color: gold;
+    font-weight: bold;
+}
+
 .jumbotron {
     color:gold;
     text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
@@ -7,4 +21,16 @@
     /* background-repeat: no-repeat; */
     background-position: 50% 23%;
     height: 50vh;
+}
+
+.figure-img {
+    max-height: 400px;
+    
+}
+
+#education,
+#autobiography,
+#photos {
+    padding-top: 60px;
+    margin-top: -60px;
 }

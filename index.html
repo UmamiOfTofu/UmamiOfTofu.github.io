@@ -16,6 +16,51 @@
 </head>
 
 <body>
+
+    <nav class="navbar sticky-top navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/head.png" alt="" width="26" height="38">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#autobiography">Autobiography</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photos">Photos</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <h1 class="display-3">Li, Zong-Ze</h1>
@@ -23,13 +68,69 @@
         </div>
     </div>
 
-    <div class="container">
+
+
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6 col-md-4" style="background-color: beige;"> Div 1</div>
-            <div class="col-6 col-md-4" style="background-color: azure;"> Div 1</div>
-            <div class="col-6 col-md-4" style="background-color: antiquewhite;"> Div 1</div>
+            <div class="col-12" id="education">
+                <h1>Education</h1>
+                <div class="card">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">國立中山大學海洋環境及工程學系, 學士學位, 港灣工程, 2016 ~ 2021</li>
+                        <li class="list-group-item">國立中⼭⼤學海洋環境及⼯程學系, 碩⼠學位, 海岸防護實驗室, 2021~</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p>&nbsp;<p>
+
+                    <div class="col-12" id="autobiography">
+                        <h1>Autobiography</h1>
+                        <div class="card border-0">
+                            <div class="card-body">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是海洋⼯程環境⼯程學所碩一的李宗澤。海⼯系是個融合結構⼒學、環境化學、環境⽣物學以及環境規劃的科系，每⼀⾯向都有專業的老師帶領我們踏⾜這些領域，我們
+                                則要在這中尋找⾃⼰的興趣與⽅向，所謂眾裡尋他千百度，在⼀堂⼜⼀堂的課中我在指導老師—來⾃TORI國海研究院李芳成老師博⼠下學會使⽤ DualSPH
+                                這個模擬流場之軟體，也慢慢地培養出我對數值模擬這⽅⾯的興趣。在我的個⼈⽅⾯，我認為我個性剛認識陌⽣⼈時雖然內向，但在團隊討論中總是能適時提供意⾒並協助事項，我⼗分享受團隊討論時所帶來的腦⼒激盪，也會虛⼼接受其他⼈的意⾒，進入公司後雖有許多事務需學習，但我會細⼼聆聽專業⼯程師的意⾒，並完成份內⼯作的。
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>&nbsp;</p>
+
+                    <div class="col-12" id="photos">
+                        <h1>Photos</h1>
+                        <div class="text-center">
+                            <figure class="figure">
+                                <img src="/assets/smog.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption">置身煙霧，2018年</figcaption>
+                            </figure>
+                            <figure class="figure">
+                                <img src="/assets/finger.png" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption">國際通用手勢，2018年</figcaption>
+                            </figure>
+                            <figure class="figure">
+                                <img src="/assets/feet.jpg" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption">足爆彈病發，2020年</figcaption>
+                            </figure>
+                            <figure class="figure">
+                                <img src="/assets/hug.png" class="figure-img img-fluid rounded" alt="...">
+                                <figcaption class="figure-caption">與日本隊一同獲得2020東京奧運棒球金牌，2021年</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <p>&nbsp;</p>
+
         </div>
     </div>
+
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright: 中山田哲人辦公室          
+        </div>
+        <!-- Copyright -->
+      </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -41,6 +142,9 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script>
+        $('.collapse').collapse()
     </script>
 </body>
 
