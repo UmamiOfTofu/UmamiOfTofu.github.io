@@ -1,3 +1,9 @@
+#title {    
+    font-family: 
+    /* "Iceland", */    
+    'Ma Shan Zheng', cursive;
+}
+
 .navbar {
     color: white;
     background-color: dodgerblue;
@@ -38,6 +44,11 @@
 
 }
 
+.figure .video-fluid {
+    max-height: 400px;
+    max-width: 90vw;
+}
+
 #education,
 #autobiography,
 #photos {
@@ -45,6 +56,3 @@
     margin-top: -60px;
 }
 
-#ig {
-    float: right;
-}
