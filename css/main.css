@@ -3,17 +3,27 @@
     background-color: dodgerblue;
 }
 
+/* .navbar-toggler {
+    border-color: white;    
+} */
+
 .navbar-nav li a {
-    color: white;    
+    color: white;
 }
 
 .navbar-nav li a:hover {
-    color: gold;
+    /* color: gold; */
+    /* background-color: darkblue; */
+    /* border: 1px solid black; */
     font-weight: bold;
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+    color: gold;
+}
+
 .jumbotron {
-    color:gold;
+    color: gold;
     text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
     background-color: gray;
     background-image: url(/assets/S__93282308.jpeg);
@@ -25,7 +35,7 @@
 
 .figure-img {
     max-height: 400px;
-    
+
 }
 
 #education,
@@ -33,4 +43,8 @@
 #photos {
     padding-top: 60px;
     margin-top: -60px;
+}
+
+#ig {
+    float: right;
 }
