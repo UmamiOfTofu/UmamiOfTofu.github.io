@@ -28,16 +28,40 @@
     color: gold;
 }
 
-.jumbotron {
+#first {
+    background-image: url("/assets/S__93282308.jpeg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 15%;
+    /* height: 50vh; */
+    filter: grayscale(80%) blur(1px);
+}
+#second {
+    color: gold;
+    text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
+    background-image: url("/assets/S__93282308.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 15%;
+    /* height: 50vh; */
+}
+
+/* .jumbotron {
     color: gold;
     text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
     background-color: gray;
     background-image: url(/assets/S__93282308.jpeg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: 50% 23%;
     height: 50vh;
-}
+} */
 
 .figure-img {
     max-height: 400px;
