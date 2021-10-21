@@ -30,7 +30,7 @@
 
 #first {
     background-image: url("/assets/S__93282308.jpeg");
-    min-height: 1200px;
+    min-height: 2400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     color: gold;
     text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
     background-image: url("/assets/S__93282308.jpeg");
-    min-height: 600px;
+    min-height: 1200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
